@@ -200,7 +200,7 @@ function Index() {
               </h2>
               <p className="text-muted-foreground leading-relaxed">
                 Visiting CERN in Geneva, joining the Startup Program in Sweden,
-                and competing in hackathons across Italy — both as a student
+                and competing in hackathons across the world — both as a student
                 and as a mentor. Every experience adds a new lens on how to
                 turn ideas into impact.
               </p>
