@@ -91,7 +91,7 @@ function Index() {
               {[
                 {
                   k: "01",
-                  t: "National Champion",
+                  t: "Campioni Nazionali 2025",
                   d: "CFO of the Enactus UniUd team that won Enactus Italy 2025 and represented Italy at the World Cup in Bangkok.",
                 },
                 {
