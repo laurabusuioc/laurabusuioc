@@ -128,7 +128,7 @@ function Index() {
               <div className="absolute bottom-0 left-0 right-0 p-8 md:p-12 text-background">
                 <p className="text-xs uppercase tracking-[0.25em] opacity-80">On stage · Enactus 2025</p>
                 <p className="font-display text-2xl md:text-4xl mt-3 max-w-2xl text-balance leading-tight">
-                  "We throw away what the Earth gives us — and pay to poison it."
+                  "We throw away what the Earth gives us and pay to poison it."
                 </p>
               </div>
             </div>
