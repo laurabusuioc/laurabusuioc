@@ -2,6 +2,7 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
 import portrait from "@/assets/laura-portrait.jpg";
+import pitching from "@/assets/laura-pitching.jpg";
 
 export const Route = createFileRoute("/")({
   head: () => ({
