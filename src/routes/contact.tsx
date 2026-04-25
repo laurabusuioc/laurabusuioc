@@ -38,22 +38,23 @@ function Contact() {
           </p>
 
           <div className="grid sm:grid-cols-2 gap-4 max-w-xl mx-auto pt-6 text-left">
-            <a
-              href="mailto:laura.busuioc@example.com"
-              className="rounded-2xl border border-border p-6 hover:bg-secondary transition"
-            >
-              <p className="text-xs uppercase tracking-[0.2em] text-accent">Email</p>
-              <p className="mt-2 font-display text-xl">laura.busuioc@example.com</p>
-            </a>
-            <a
-              href="https://www.linkedin.com/"
-              target="_blank"
-              rel="noreferrer"
-              className="rounded-2xl border border-border p-6 hover:bg-secondary transition"
-            >
-              <p className="text-xs uppercase tracking-[0.2em] text-accent">LinkedIn</p>
-              <p className="mt-2 font-display text-xl">in/laura-busuioc</p>
-            </a>
+            {[
+              { label: "LinkedIn", handle: "Laura Busuioc", href: "https://www.linkedin.com/in/laura-busuioc-9a9570298" },
+              { label: "Instagram", handle: "@lauraabusuioc", href: "https://www.instagram.com/lauraabusuioc/" },
+              { label: "Facebook", handle: "Laura Busuioc", href: "https://www.facebook.com/profile.php?id=100008640614297&locale=it_IT" },
+              { label: "Email", handle: "laura.busuioc@example.com", href: "mailto:laura.busuioc@example.com" },
+            ].map((s) => (
+              <a
+                key={s.label}
+                href={s.href}
+                target={s.href.startsWith("http") ? "_blank" : undefined}
+                rel="noreferrer"
+                className="rounded-2xl border border-border p-6 hover:bg-secondary transition"
+              >
+                <p className="text-xs uppercase tracking-[0.2em] text-accent">{s.label}</p>
+                <p className="mt-2 font-display text-xl break-words">{s.handle}</p>
+              </a>
+            ))}
           </div>
 
           <div className="pt-8">
