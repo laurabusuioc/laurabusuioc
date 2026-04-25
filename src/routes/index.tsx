@@ -85,7 +85,7 @@ function Index() {
         <section className="border-y border-border bg-secondary/40">
           <div className="mx-auto max-w-6xl px-6 py-10">
             <p className="text-xs uppercase tracking-[0.25em] text-muted-foreground text-center mb-6">
-              Four languages · Studied across 3 countries
+              Four languages · International mobility in 2 countries
             </p>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
               {[
