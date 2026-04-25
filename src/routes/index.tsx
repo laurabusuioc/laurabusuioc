@@ -80,22 +80,28 @@ function Index() {
           </div>
         </section>
 
-        {/* MARQUEE / FACTS */}
+        {/* LANGUAGES */}
         <section className="border-y border-border bg-secondary/40">
-          <div className="mx-auto max-w-6xl px-6 py-10 grid grid-cols-2 md:grid-cols-4 gap-8">
-            {[
-              ["3", "Countries"],
-              ["1st", "Enactus Italy 2025"],
-              ["200+", "Beaten at Hackathon"],
-              ["C1", "English · Trinity"],
-            ].map(([n, l]) => (
-              <div key={l}>
-                <p className="font-display text-4xl">{n}</p>
-                <p className="text-xs uppercase tracking-widest text-muted-foreground mt-2">
-                  {l}
-                </p>
-              </div>
-            ))}
+          <div className="mx-auto max-w-6xl px-6 py-10">
+            <p className="text-xs uppercase tracking-[0.25em] text-muted-foreground text-center mb-6">
+              Four languages · One conversation
+            </p>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+              {[
+                ["🇮🇹", "Italian", "Native"],
+                ["🇷🇴", "Romanian", "Native"],
+                ["🇬🇧", "English", "C1"],
+                ["🇪🇸", "Spanish", "A2"],
+              ].map(([flag, lang, level]) => (
+                <div key={lang} className="text-center md:text-left">
+                  <p className="text-3xl mb-2">{flag}</p>
+                  <p className="font-display text-2xl">{lang}</p>
+                  <p className="text-xs uppercase tracking-widest text-muted-foreground mt-1">
+                    {level}
+                  </p>
+                </div>
+              ))}
+            </div>
           </div>
         </section>
 
