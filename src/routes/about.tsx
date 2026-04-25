@@ -53,7 +53,7 @@ const skills = {
   Languages: ["Italian — Native", "Romanian — Native", "English — C1 Trinity", "Spanish — A2"],
   Technical: ["Financial Modeling", "Business Analysis", "Project Management (Agile/Scrum)", "Data Analysis"],
   Tools: ["Microsoft Office (Adv. Excel)", "AI & ML Basics — Aulab", "SQL"],
-  Soft: ["International Collaboration", "Public Speaking", "Leadership", "Mentoring"],
+  Soft: ["Strategy", "Problem Solving", "Leadership", "Communication"],
 };
 
 function About() {
