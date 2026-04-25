@@ -42,7 +42,7 @@ function Contact() {
               { label: "LinkedIn", handle: "Laura Busuioc", href: "https://www.linkedin.com/in/laura-busuioc-9a9570298" },
               { label: "Instagram", handle: "@lauraabusuioc", href: "https://www.instagram.com/lauraabusuioc/" },
               { label: "Facebook", handle: "Laura Busuioc", href: "https://www.facebook.com/profile.php?id=100008640614297&locale=it_IT" },
-              { label: "Email", handle: "laura.busuioc@example.com", href: "mailto:laura.busuioc@example.com" },
+              { label: "Email", handle: "laurabusuioc2004@gmail.com", href: "mailto:laurabusuioc2004@gmail.com" },
             ].map((s) => (
               <a
                 key={s.label}
