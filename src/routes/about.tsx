@@ -50,8 +50,8 @@ const education = [
 ];
 
 const skills = {
-  Languages: ["Italian — Native", "Romanian — Native", "English — C1 Trinity", "Spanish — A2"],
-  Technical: ["Financial Modeling", "Business Analysis", "Project Management (Agile/Scrum)", "Data Analysis"],
+  Languages: ["Italian — Native", "Romanian — Native", "English — C1", "Spanish — A2"],
+  Technical: ["Financial Modeling", "Business Analysis", "Project Management", "Data Analysis"],
   Tools: ["Microsoft Office (Adv. Excel)", "AI & ML Basics — Aulab", "SQL"],
   Soft: ["Strategy", "Problem Solving", "Leadership", "Communication"],
 };
