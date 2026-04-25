@@ -165,14 +165,15 @@ function Index() {
                   period: "Aug — Dec 2026",
                   title: "Dankook University · International Mobility",
                   body: "International mobility focused on technology management, innovation and global business — next stop on the route.",
+                  contain: true,
                 },
               ].map((s) => (
                 <article key={s.title} className="group">
-                  <div className="aspect-[4/5] overflow-hidden rounded-[1.5rem] mb-5">
+                  <div className="aspect-[4/5] overflow-hidden rounded-[1.5rem] mb-5 bg-secondary">
                     <img
                       src={s.img}
                       alt={`${s.title} — ${s.place}`}
-                      className="w-full h-full object-cover group-hover:scale-[1.03] transition duration-500"
+                      className={`w-full h-full ${s.contain ? "object-contain p-10" : "object-cover"} group-hover:scale-[1.03] transition duration-500`}
                     />
                   </div>
                   <p className="text-xs uppercase tracking-[0.2em] text-accent">
