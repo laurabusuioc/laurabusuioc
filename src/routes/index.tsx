@@ -6,6 +6,7 @@ import pitching from "@/assets/laura-pitching.jpg";
 import cern from "@/assets/laura-cern.jpg";
 import sweden from "@/assets/laura-sweden.jpg";
 import startupProgram from "@/assets/laura-startup-program.jpg";
+import dankook from "@/assets/dankook-korea.jpg";
 
 export const Route = createFileRoute("/")({
   head: () => ({
