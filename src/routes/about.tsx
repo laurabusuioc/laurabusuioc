@@ -68,15 +68,15 @@ function About() {
               Numbers with a <em className="text-accent not-italic">creative</em> streak.
             </h1>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              I'm a Management Engineering student driven by entrepreneurship
+              I'm a Management Engineer driven by entrepreneurship
               and startup creation. I love mixing data analysis with a touch of
-              creativity — turning rational decisions into ideas with real
+              creativity turning rational decisions into ideas with real
               growth potential.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
               My engineering background helps me handle numbers with rigor;
               my creative side keeps me innovating. I look for challenges and
-              opportunities to grow professionally and personally — always
+              opportunities to grow professionally and personally, always
               ready to engage in a multidisciplinary context.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
