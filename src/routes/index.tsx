@@ -81,25 +81,34 @@ function Index() {
           </div>
         </section>
 
-        {/* LANGUAGES */}
-        <section className="border-y border-border bg-secondary/40">
-          <div className="mx-auto max-w-6xl px-6 py-10">
-            <p className="text-xs uppercase tracking-[0.25em] text-muted-foreground text-center mb-6">
-              Four languages · International mobility in 2 countries
+        {/* KEY FACTS — what to know about Laura */}
+        <section className="border-y border-border bg-foreground text-background">
+          <div className="mx-auto max-w-6xl px-6 py-16 md:py-20">
+            <p className="text-xs uppercase tracking-[0.3em] opacity-60 text-center mb-10">
+              The short version
             </p>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+            <div className="grid md:grid-cols-3 gap-10 md:gap-6">
               {[
-                ["🇮🇹", "Italian", "Native"],
-                ["🇷🇴", "Romanian", "Native"],
-                ["🇬🇧", "English", "C1"],
-                ["🇪🇸", "Spanish", "A2"],
-              ].map(([flag, lang, level]) => (
-                <div key={lang} className="text-center md:text-left">
-                  <p className="text-3xl mb-2">{flag}</p>
-                  <p className="font-display text-2xl">{lang}</p>
-                  <p className="text-xs uppercase tracking-widest text-muted-foreground mt-1">
-                    {level}
-                  </p>
+                {
+                  k: "01",
+                  t: "National Champion",
+                  d: "CFO of the Enactus UniUd team that won Enactus Italy 2025 and represented Italy at the World Cup in Bangkok.",
+                },
+                {
+                  k: "02",
+                  t: "Built across 3 countries",
+                  d: "Management Engineering between Italy, Sweden and South Korea — two international mobilities, one global mindset.",
+                },
+                {
+                  k: "03",
+                  t: "Numbers + Creativity",
+                  d: "I lead with financial rigor, but I think like a founder. Strategy, innovation and entrepreneurial projects are my home turf.",
+                },
+              ].map((f) => (
+                <div key={f.k} className="space-y-3">
+                  <p className="font-display text-accent text-2xl">{f.k}</p>
+                  <p className="font-display text-2xl leading-tight">{f.t}</p>
+                  <p className="text-sm opacity-70 leading-relaxed">{f.d}</p>
                 </div>
               ))}
             </div>
