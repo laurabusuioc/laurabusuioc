@@ -45,7 +45,9 @@ function Index() {
               </h1>
               <p className="text-lg text-muted-foreground max-w-xl leading-relaxed">
                 I'm Laura, a Management Engineer blending financial
-                strategy, international experience and&nbsp;
+                strategy, international experience and a strong passion for
+                <em className="text-accent not-italic"> entrepreneurial projects</em> and
+                <em className="text-accent not-italic"> innovation</em>.
               </p>
               <div className="flex flex-wrap gap-3 pt-2">
                 <Link
