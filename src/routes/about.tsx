@@ -42,7 +42,7 @@ const education = [
   {
     school: "Dankook University",
     place: "South Korea",
-    degree: "Incoming Mobility",
+    degree: "International Mobility",
     period: "Aug 2026 – Dec 2026",
     notes: "Technology Management · Innovation · Global Business",
   },
