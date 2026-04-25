@@ -114,8 +114,7 @@ function About() {
               </h2>
               <p className="text-muted-foreground leading-relaxed">
                 After winning the National Competition, our team flew to
-                Bangkok to compete on the global stage — pitching impact-driven
-                entrepreneurship under the theme <em>"Carbon Captured, Future Secured"</em>.
+                Bangkok to compete on the global stage.
               </p>
             </div>
           </div>
