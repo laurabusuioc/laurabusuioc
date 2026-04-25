@@ -96,6 +96,26 @@ function Index() {
           </div>
         </section>
 
+        {/* ON STAGE */}
+        <section className="relative overflow-hidden">
+          <div className="mx-auto max-w-6xl px-6 py-24">
+            <div className="relative rounded-[2rem] overflow-hidden">
+              <img
+                src={pitching}
+                alt="Laura Busuioc pitching on stage at Enactus — 'We throw away what the Earth gives us and pay to poison it.'"
+                className="w-full h-[60vh] md:h-[70vh] object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-foreground/80 via-foreground/20 to-transparent" />
+              <div className="absolute bottom-0 left-0 right-0 p-8 md:p-12 text-background">
+                <p className="text-xs uppercase tracking-[0.25em] opacity-80">On stage · Enactus 2025</p>
+                <p className="font-display text-2xl md:text-4xl mt-3 max-w-2xl text-balance leading-tight">
+                  "We throw away what the Earth gives us — and pay to poison it."
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* SHORT INTRO */}
         <section className="mx-auto max-w-4xl px-6 py-24 text-center space-y-6">
           <p className="text-xs uppercase tracking-[0.25em] text-muted-foreground">
