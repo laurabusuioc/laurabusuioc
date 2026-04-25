@@ -42,7 +42,7 @@ const education = [
   {
     school: "Dankook University",
     place: "South Korea",
-    degree: "Incoming Mobility",
+    degree: "International Mobility",
     period: "Aug 2026 – Dec 2026",
     notes: "Technology Management · Innovation · Global Business",
   },
@@ -94,7 +94,7 @@ function About() {
             <div className="flex items-baseline justify-between mb-12">
               <h2 className="font-display text-3xl md:text-4xl">Education</h2>
               <p className="text-xs uppercase tracking-[0.25em] text-muted-foreground">
-                3 countries · 2026 grad
+                3 countries · 2026 Grad
               </p>
             </div>
             <div className="space-y-px bg-border">
