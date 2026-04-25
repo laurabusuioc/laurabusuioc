@@ -163,7 +163,7 @@ function Index() {
                   flag: "🇰🇷",
                   place: "Cheonan, South Korea",
                   period: "Aug — Dec 2026",
-                  title: "Dankook University",
+                  title: "Dankook University · International Mobility",
                   body: "International mobility focused on technology management, innovation and global business — next stop on the route.",
                 },
               ].map((s) => (
