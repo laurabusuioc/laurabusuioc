@@ -154,7 +154,7 @@ function Index() {
                   body: "International exchange and Startup Program: building a venture from scratch with a multicultural team. Wearing the legendary 'ovve' overalls.",
                 },
                 {
-                  img: startupProgram,
+                  img: dankook,
                   flag: "🇰🇷",
                   place: "Cheonan, South Korea",
                   period: "Aug — Dec 2026",
