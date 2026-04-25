@@ -3,6 +3,9 @@ import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
 import portrait from "@/assets/laura-portrait.jpg";
 import pitching from "@/assets/laura-pitching.jpg";
+import cern from "@/assets/laura-cern.jpg";
+import sweden from "@/assets/laura-sweden.jpg";
+import startupProgram from "@/assets/laura-startup-program.jpg";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -112,6 +115,107 @@ function Index() {
                   "We throw away what the Earth gives us — and pay to poison it."
                 </p>
               </div>
+            </div>
+          </div>
+        </section>
+
+        {/* JOURNEY — STUDIES & MOBILITIES */}
+        <section className="border-t border-border">
+          <div className="mx-auto max-w-6xl px-6 py-24">
+            <div className="max-w-2xl mb-16">
+              <p className="text-xs uppercase tracking-[0.25em] text-muted-foreground">Journey</p>
+              <h2 className="font-display text-3xl md:text-5xl mt-4 leading-[1.05] text-balance">
+                Three campuses, one <em className="not-italic text-accent">curriculum</em>.
+              </h2>
+              <p className="text-muted-foreground text-lg mt-6 leading-relaxed">
+                Management Engineering between Italy, Sweden and South Korea —
+                a path designed to learn how operations, capital and culture
+                shape global business.
+              </p>
+            </div>
+
+            <div className="grid md:grid-cols-3 gap-8">
+              {[
+                {
+                  img: portrait,
+                  flag: "🇮🇹",
+                  place: "Udine, Italy",
+                  period: "2023 — 2026",
+                  title: "Università degli Studi di Udine",
+                  body: "BSc Management Engineering. Operations, business strategy, statistics and industrial logistics — the foundation.",
+                },
+                {
+                  img: sweden,
+                  flag: "🇸🇪",
+                  place: "Jönköping, Sweden",
+                  period: "Aug 2025 — Jan 2026",
+                  title: "Jönköping University · Erasmus",
+                  body: "International exchange and Startup Program: building a venture from scratch with a multicultural team. Wearing the legendary 'ovve' overalls.",
+                },
+                {
+                  img: startupProgram,
+                  flag: "🇰🇷",
+                  place: "Cheonan, South Korea",
+                  period: "Aug — Dec 2026",
+                  title: "Dankook University",
+                  body: "International mobility focused on technology management, innovation and global business — next stop on the route.",
+                },
+              ].map((s) => (
+                <article key={s.title} className="group">
+                  <div className="aspect-[4/5] overflow-hidden rounded-[1.5rem] mb-5">
+                    <img
+                      src={s.img}
+                      alt={`${s.title} — ${s.place}`}
+                      className="w-full h-full object-cover group-hover:scale-[1.03] transition duration-500"
+                    />
+                  </div>
+                  <p className="text-xs uppercase tracking-[0.2em] text-accent">
+                    {s.flag} {s.place} · {s.period}
+                  </p>
+                  <h3 className="font-display text-xl mt-2">{s.title}</h3>
+                  <p className="text-sm text-muted-foreground mt-2 leading-relaxed">{s.body}</p>
+                </article>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* BEYOND THE CLASSROOM */}
+        <section className="bg-secondary/40 border-y border-border">
+          <div className="mx-auto max-w-6xl px-6 py-24 grid md:grid-cols-12 gap-12 items-center">
+            <div className="md:col-span-6">
+              <img
+                src={cern}
+                alt="Laura Busuioc visiting CERN in Geneva"
+                className="w-full aspect-[4/3] object-cover rounded-[2rem]"
+              />
+              <p className="text-xs uppercase tracking-[0.2em] text-muted-foreground mt-4 px-2">
+                CERN · Geneva, Switzerland
+              </p>
+            </div>
+            <div className="md:col-span-6 space-y-6">
+              <p className="text-xs uppercase tracking-[0.25em] text-muted-foreground">Beyond the classroom</p>
+              <h2 className="font-display text-3xl md:text-4xl leading-[1.1] text-balance">
+                Curiosity that travels — from <em className="not-italic text-accent">CERN</em> to startup pitches.
+              </h2>
+              <p className="text-muted-foreground leading-relaxed">
+                Visiting CERN in Geneva, joining the Startup Program in Sweden,
+                and competing in hackathons across Italy — both as a student
+                and as a mentor. Every experience adds a new lens on how to
+                turn ideas into impact.
+              </p>
+              <ul className="space-y-3 text-sm">
+                {[
+                  "🧪 CERN visit — research, physics & big-science management",
+                  "🚀 Startup Program @ Jönköping — venture building, end to end",
+                  "🏆 Hackathons — competitor & mentor across multiple editions",
+                ].map((i) => (
+                  <li key={i} className="flex gap-3 items-start">
+                    <span className="text-accent mt-[3px]">◆</span>
+                    <span>{i}</span>
+                  </li>
+                ))}
+              </ul>
             </div>
           </div>
         </section>
